@@ -1,0 +1,13 @@
+# drupalUsername: admin
+drupalEmail: admin@example.com
+drupalPassword: $DRUPAL_PASSWORD
+#desable ingress
+ingress:
+  enabled: false
+
+# MariaDB configs
+mariadb:
+  auth:
+    rootPassword: $MARIA_DB_ROOT_PASSWORD
+    password: $MARIADB_PASSWORD
+
